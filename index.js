@@ -14,7 +14,7 @@ expressOasGenerator.handleResponses(app, {
     ],
     mongooseModels: mongoose.modelNames(),
   });
-  app.use(cors({ credentials: true, origin: "*" }));
+  Statementapp.use(cors({ credentials: true, origin: "*" }));
 Statementapp.use(express.json()); //this is the middleware that is used
 dbConnection();
 

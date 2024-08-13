@@ -59,4 +59,7 @@ export const deleteStatement = async (req, res)=>{
   }
 }
 
-
+// export const filterStatement = async(req, res, next) =>{
+//   const filteredStatement = await StatementModel.find();  
+// }
+ 

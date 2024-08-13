@@ -7,7 +7,7 @@ import cors from "cors";
 
 const Statementapp = express();
 
-expressOasGenerator.handleResponses(app, {
+expressOasGenerator.handleResponses(Statementapp, {
     alwaysServeDocs: true,
     tags: [
       "statement",

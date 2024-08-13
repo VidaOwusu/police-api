@@ -1,5 +1,6 @@
 import express from "express";
 import statementRouter from "./routes/statement.js";
+import mongoose from "mongoose";
 import 'dotenv/config';
 import { dbConnection } from "./config/db.js";
 import expressOasGenerator from "@mickeymond/express-oas-generator";
